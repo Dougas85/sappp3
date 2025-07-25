@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     const calendar = document.getElementById('calendar');
-    for (let i = 1; i <= 62; i++) {
+    for (let i = 1; i <= 64; i++) {
         const day = document.createElement('div');
         day.innerText = i;
         day.id = `day-${i}`;
